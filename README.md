@@ -1,45 +1,37 @@
 <<<<<<< HEAD
 # Global Digest
+Amidst the diverse information circulating worldwide, the goal is to clearly deliver truly essential information, transcending multi-language barriers, to Japanese speakers in real-time.
+Conventionally, Japanese speakers have needed to read and translate multi-language news to obtain the latest overseas information. Our system, "Global Digest," automates this process.
 
-Global Digest は多言語のニュース記事を要約・日本語翻訳を作成することを目的とした Python プロジェクトです。
+## Summary
+"Global Digest" is an information delivery system that overcomes multi-language barriers to provide **truly essential global information** to Japanese speakers in real-time.
+When a user enters their area of interest in Japanese, the system automatically collects news articles in multiple languages.
+AI agents (Agentic AI Framework) autonomously perform the searching, summarizing, and translating of these articles.
+This eliminates the inefficiency of information gathering, allowing users to receive the latest global news as a Japanese digest via email, regardless of their linguistic abilities, thereby reducing the information gap and increasing productivity.
 
-## 概要
-- ニュース記事やウェブコンテンツから重要なポイントを抽出し、短いダイジェストを生成します。
-- 多言語対応を想定しています（現状は Python 実装）。
+## Global Digest: Core Capabilities (Planned)
+Global Digest: Core Capabilities (Planned)
+"Global Digest" is an RPA-type information delivery system designed to provide the latest global information to Japanese speakers. Based on keywords specified by the user, it automatically collects news articles published in multiple languages worldwide. A chain of AI agents performs language detection and summarizes the articles in their original language. It then has the capability to translate the summary into Japanese. Ultimately, these Japanese digests are automatically delivered to the user via email, dramatically improving information gathering productivity.
 
-## できること（予定）
-- URL またはテキスト入力から要約を生成
-- バッチ処理で大量の記事を処理
-- 簡単なCLI/API インターフェース
-
-## 要求環境
+## Required Environment / System Requirements
 - Python 3.8+
-- 依存パッケージは requirements.txt を参照
+- Dependent packages: Refer to `requirements.txt`
 
-## インストール
-1. リポジトリをクローン  
-   `git clone https://github.com/tk230377/Global-Digest-v0.1.git`
-2. 仮想環境を作成・有効化  
-   `python -m venv .venv`  
-   `source .venv/bin/activate`  # macOS/Linux  
-   `..\venv\Scripts\activate`   # Windows
-3. 依存関係をインストール  
-   `pip install -r requirements.txt`
+## Installation
+1. Clone the Repository git clone https://github.com/tk230377/Global-Digest-v0.1.git
+2. Create and Activate Virtual Environment python -m venv .venv source .venv/bin/activate # macOS/Linux ..\venv\Scripts\activate # Windows
+3. Install Dependencies pip install -r requirements.txt
 
-## 使い方（開発中の例）
-- メインのスクリプトや CLI が完成次第、具体的な使い方をここに追加します。
+## Usage (Development Example)
+Specific instructions will be added here once the main script or CLI (Command Line Interface) is complete.
 
-## 開発
-- テスト: pytest を使用
-- コード整形: black, フォーマットやリンティングツールを導入予定
+## Contribution
+-Please create an Issue for bugs or feature requests.
+- When submitting a Pull Request (PR), please refer to CONTRIBUTING.md.
 
-## 貢献
-- バグや機能要望は Issue を作成してください。
-- PR を送る場合は CONTRIBUTING.md を参照してください。
+## License
+This project is licensed under the MIT License (see the LICENSE file for details).
 
-## ライセンス
-このプロジェクトは MIT ライセンスの下で公開されています（LICENSE ファイル参照）。
-
-## 連絡先
+## Contact
 - GitHub: https://github.com/tk230377
 
